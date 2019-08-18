@@ -1,5 +1,8 @@
-﻿namespace QuickBuy.Dominio.Entidade
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace QuickBuy.Dominio.Entidade
 {
+    [Table("Produto")]
     public class Produto : Entidade
     {
         public int Id { get; set; }
