@@ -12,7 +12,7 @@ export class ProdutoComponent {
   public obterNome(): string {
     //return this.nome;
 
-    return "Samsung"
+    return "Samsung 2"
   }
 
 }
